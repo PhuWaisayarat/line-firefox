@@ -65,7 +65,7 @@ js-beautify -r ./background.js
 ++      chrome.action.onClicked.addListener(() => {
 ++          chrome.windows.create({
 ++              url: "index.html",
-++              type: "popup",
+++              type: "normal",
 ++              width: 710,
 ++              height: 570
 ++          });
